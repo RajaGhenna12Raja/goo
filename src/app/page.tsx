@@ -10,7 +10,7 @@ export default function Home() {
    <HomeHeader/>
    {/* body */}
    <div className='flex flex-col items-center mt-24'>
-      <Image src='/goo.logo.png' height={100} width={300} alt="mainImage"/>
+      <Image src='/see.logo.png' height={100} width={300} alt="mainImage"/>
       <HomeSearch/>
    </div>
    </>
