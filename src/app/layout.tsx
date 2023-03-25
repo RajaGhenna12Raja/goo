@@ -1,8 +1,8 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'Goo.. Browser',
-  description: 'find search Goo..',
+  title: 'See.. Browser',
+  description: 'find search See..',
 }
 
 export default function RootLayout({

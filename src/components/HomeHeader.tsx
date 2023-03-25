@@ -12,7 +12,7 @@ export default function HomeHeader() {
          <Link className='hover:underline' href='https://images.google.com'>
           Images
         </Link>
-          <TbGridDots className='bg-transparent hover:to-green-400 rounded-full text-4xl p-2' />
+          <TbGridDots className="hover:bg-gray-200 bg-transparent rounded-full text-4xl p-2"/>
           <button className='bg-blue-500 text-white px-2 py-2 font-medium rounded-md hover:brightness-105 hover:shadow-md hover:shadow-md transition-shadow'> SignIn </button>
       </div>
     </header>
