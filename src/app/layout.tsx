@@ -1,4 +1,5 @@
 import './globals.css'
+import Footer from '@/components/Footer'
 
 export const metadata = {
   title: 'See.. Browser',
@@ -12,7 +13,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        
+        {children}
+        {/* footer */}
+        <Footer/>
+        </body>
     </html>
   )
 }

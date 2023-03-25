@@ -52,8 +52,8 @@ export default function HomeSearch() {
             <Image
               src='/spinner.svg'
               alt='Loading...'
-              height={10}
-              width={10}
+              height='10'
+              width='10'
               className='text-center items-center justify-center'
             />
           ) : (
